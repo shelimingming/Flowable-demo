@@ -1,0 +1,13 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/flowable?characterEncoding=UTF-8&nullCatalogMeansCurrent=true
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+server:
+  port: 9999
+flowable:
+  common:
+    app:
+      idm-url: http://127.0.0.1:8080/flowable-idm
